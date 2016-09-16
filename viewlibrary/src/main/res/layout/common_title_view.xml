@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:gravity="center_vertical"
+    tools:background="@android:color/holo_blue_light">
+
+    <TextView
+        android:id="@+id/tv_title_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="400dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="400dp"
+        android:layout_marginStart="10dp"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        tools:text="left"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tv_title_middle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="150dp"
+        android:padding="10dp"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        tools:text="middle"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tv_title_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        tools:text="right"
+        android:textColor="@android:color/white" />
+</RelativeLayout>
